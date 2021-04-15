@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: whitesmoke;
+}
+
+nav {
+  background-color: #222222;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+}
+li {
+  text-decoration: none;
+  margin-right: 20px;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover {
+  text-decoration: none;
+  color: tomato;
+}
+#hero-landing {
+  height: 75vh;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 100px;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #222222;
+}
+.naming {
+  /* flex: 0.35; */
+  /* padding-left: 100px; */
+  color: whitesmoke;
+  font-size: 45px;
+  display: flex;
+  /* gap: 200px; */
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.icons {
+  display: flex;
+  text-align: left;
+
+  font-size: 25px;
+}
+.icons > a {
+  margin-right: 18px;
+}
+.icons > a :hover {
+  color: tomato;
+}
+hr {
+  background-color: tomato;
+  border: none;
+}
+
+.based-on {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+#aboutme {
+  padding: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #1f1f1f;
+  display: flex;
+  color: whitesmoke;
+  text-align: left;
+  width: auto;
+  height: 60vh;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+#aboutme > div {
+  background-color: transparent;
+  align-items: center;
+}
+.abtdesc {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #1f1f1f;
+}
+.abtdesc > h1,
+h4,
+span {
+  background-color: transparent;
+}
+
+.about {
+  margin-bottom: 40px;
+}
+.discussion {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.sec-top-part {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 70px;
+}
+.sec-top-part .discussion {
+  background-color: transparent;
+}
+
+.info {
+  width: 100%;
+  text-align: left;
+  padding-left: 0;
+}
+
+#services {
+  height: 78vh;
+  padding-top: 110px;
+  padding-left: 80px;
+  padding-right: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: #222222;
+}
+.whatto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+.whatto > h1 {
+  font-size: 50px;
+
+  font-weight: 1000;
+}
+.skill {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ui {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ui > i {
+  font-size: 50px;
+  color: tomato;
+}
+.dash {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.web-design {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 20px 20px #d74725;
+  /* box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.80), 0 -10px 20px -5px #7b272c; */
+  background-color: #161616;
+}
+.web-design > i {
+  font-size: 50px;
+  color: tomato;
+}
+footer {
+  height: 70vh;
+  padding-top: 110px;
+  padding-left: 80px;
+  padding-right: 100px;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1f1f1f;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+input,
+textarea {
+  color: grey;
+  background-color: #363636;
+  border: none;
+  padding: 15px;
+  width: 80%;
+}
+button {
+  margin-top: 10px;
+  width: 100px;
+  border: none;
+  padding: 10px;
+  color: whitesmoke;
+  background-color: tomato;
+}
