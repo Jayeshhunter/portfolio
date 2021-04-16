@@ -199,7 +199,7 @@ footer {
   text-align: left;
   display: flex;
   justify-content: space-evenly;
-  background-color: #222222;
+  background-color: #1f1f1f;
 }
 .foot {
   display: flex;
@@ -248,4 +248,21 @@ button {
   padding: 20px;
   display: flex;
   gap: 35px;
+}
+#knowledge {
+  height: 70vh;
+  padding-top: 110px;
+  padding-left: 80px;
+  padding-right: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  background-color: #222222;
+}
+.progress {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5px;
 }
