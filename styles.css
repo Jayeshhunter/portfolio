@@ -42,6 +42,7 @@ a:hover {
   padding-right: 100px;
   text-align: left;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: #222222;
 }
