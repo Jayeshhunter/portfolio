@@ -199,7 +199,7 @@ footer {
   text-align: left;
   display: flex;
   justify-content: space-evenly;
-  background-color: #1f1f1f;
+  background-color: #222222;
 }
 .foot {
   display: flex;
@@ -221,4 +221,31 @@ button {
   padding: 10px;
   color: whitesmoke;
   background-color: tomato;
+}
+#mywork {
+  height: 70vh;
+  padding-top: 110px;
+  padding-left: 200px;
+  padding-right: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  background-color: #1f1f1f;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-left: 40px;
+  /* justify-content: space-evenly; */
+  gap: 10px;
+}
+.card {
+  background-color: #2c2c2c;
+  width: 270px;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  gap: 35px;
 }
