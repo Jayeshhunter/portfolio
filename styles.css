@@ -267,3 +267,9 @@ button {
   flex-wrap: wrap;
   gap: 5px;
 }
+input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
