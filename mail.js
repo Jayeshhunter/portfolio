@@ -27,7 +27,7 @@ form.addEventListener("submit", async (e) => {
       alert("Invalid Details");
     }
     if (data.success) {
-      alert("Thank you! Please check your mail for my quote");
+      alert(`Thank you ${name}! Please check your mail for my quote`);
     }
     //   if (data.user) {
     //     location.assign("/loeUser/" + hid);
