@@ -166,6 +166,7 @@ span {
   justify-content: space-evenly;
 }
 .ui {
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -272,4 +273,135 @@ input:focus {
 }
 textarea:focus {
   outline: none;
+}
+button:focus {
+  outline: none;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  section#hero-landing {
+    height: inherit;
+  }
+  #aboutme {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    height: 100vh;
+  }
+  #services {
+    height: 150vh;
+    text-align: center;
+  }
+  .skill {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .based-on {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .web-design {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .ui > h4 {
+    text-align: center;
+    margin-left: 15px;
+  }
+  #mywork {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 105vh;
+
+    padding: 0;
+    padding-top: 60px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  #knowledge {
+    height: 120vh;
+  }
+  footer {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  section#hero-landing {
+    height: inherit;
+  }
+  #aboutme {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    height: 100vh;
+  }
+  #services {
+    height: 150vh;
+    text-align: center;
+  }
+  .skill {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .based-on {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .web-design {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .ui > h4 {
+    text-align: center;
+    margin-left: 15px;
+  }
+  #mywork {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 105vh;
+
+    padding: 0;
+    padding-top: 60px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  #knowledge {
+    height: 120vh;
+  }
+  footer {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
 }
